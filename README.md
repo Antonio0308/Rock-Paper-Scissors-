@@ -1,5 +1,3 @@
-# Rock-Paper-Scissors-
-
 # Rock Paper Scissors ✊ 📄 ✂️
 
 A classic Rock-Paper-Scissors game built as part of the **Foundations** course in [The Odin Project](https://www.theodinproject.com/).
