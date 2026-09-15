@@ -11,3 +11,8 @@ function getComputerChoice() {
 
   return choiceComputer;
 }
+
+function getHumanChoice() {
+  const choiceHuman = prompt("Rock/Paper/Scissor: ").trim().toUpperCase();
+  return choiceHuman;
+}
