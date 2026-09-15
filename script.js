@@ -44,7 +44,20 @@ function playRound(humanChoice, computerChoice) {
   }
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
+function playGame() {
+  for (let i = 0; i < 5; i++) {
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
 
-playRound(humanSelection, computerSelection);
+    playRound(humanSelection, computerSelection);
+  }
+  if (humanScore < computerScore) {
+    return "Computer wins!";
+  } else if (humanScore > computerScore) {
+    return "Player wins";
+  } else {
+    return "Draw!";
+  }
+}
+
+console.log(playGame());
